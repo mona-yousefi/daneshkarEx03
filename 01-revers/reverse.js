@@ -1,5 +1,5 @@
 // write your func here
-const str = "this is going to be reverse";
+// const str = "this is going to be reverse";
 
 function reverseStr(str) {
   let splitString = str.split("");
@@ -7,4 +7,4 @@ function reverseStr(str) {
   let joinArr = reverseArr.join("");
   console.log(joinArr);
 }
-reverseStr(str);
+reverseStr("hi this is reverse");
