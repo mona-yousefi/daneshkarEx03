@@ -1,11 +1,11 @@
 // write your func here
 
-function palindrome(text) {
-  if (text[0] === text[text.length - 1]) {
-    console.log(true);
-  } else {
-    console.log(false);
-  }
+function reverse(str) {
+  return str.split("").reverse().join("");
 }
 
-palindrome("songs");
+function plaindrom(str) {
+  return str === reverse(str);
+}
+console.log(plaindrom("racecar"));
+console.log(plaindrom("song"));
